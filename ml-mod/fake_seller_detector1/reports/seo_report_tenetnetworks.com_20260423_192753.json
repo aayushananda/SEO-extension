@@ -1,0 +1,34 @@
+{
+    "target_url": "https://www.tenetnetworks.com/",
+    "generated_at": "2026-04-23T19:27:53.252638",
+    "trust_and_safety": {
+        "fake_website_score": 97.9,
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u274c Low traffic (Global Rank #10,531,283) \u2014 possibly new or suspicious"
+        ]
+    },
+    "on_page_seo": {
+        "canonical": "https://www.tenetnetworks.com/",
+        "description": "At Tenet Networks, we don\u2019t just deliver products, we build lasting partnerships. What sets us apart:",
+        "externalLinks": 35,
+        "h1Count": 0,
+        "h2Count": 27,
+        "h3Count": 17,
+        "imageCount": 22,
+        "imagesWithoutAlt": 4,
+        "internalLinks": 83,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "Missing",
+        "ogTitle": "Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks",
+        "pageLoadTimeMs": 9145,
+        "title": "Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks",
+        "totalLinks": 118,
+        "wordCount": 110
+    }
+}

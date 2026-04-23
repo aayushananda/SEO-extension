@@ -1,0 +1,70 @@
+{
+    "target_url": "https://www.tenetnetworks.com/",
+    "generated_at": "2026-04-23T20:00:55.420008",
+    "insights": {
+        "critical_errors": [
+            {
+                "issue": "Missing H1 Tag",
+                "impact": "High - Search engines cannot identify the main topic of your page.",
+                "recommendation": "Add exactly one <h1> tag containing your primary target keyword."
+            }
+        ],
+        "warnings": [
+            {
+                "issue": "Thin Content",
+                "impact": "Medium - Word count is only 118.",
+                "recommendation": "Expand homepage text to a minimum of 300 words to establish topical authority."
+            },
+            {
+                "issue": "Suspicious or Default Social Links",
+                "impact": "Medium - Found 1 dead-end or generic social media links.",
+                "recommendation": "Update social icons to point to your actual brand profiles, or remove them."
+            }
+        ],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Schema.org structured data found",
+            "Healthy Digital Trust Score",
+            "Established Domain Age (2802 days)"
+        ]
+    },
+    "core_web_vitals": "Not tested (API Key missing or failed)",
+    "trust_and_safety": {
+        "fake_website_score": 97.9,
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u274c Low traffic (Global Rank #10,531,283) \u2014 possibly new or suspicious"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "https://www.tenetnetworks.com/",
+        "description": "At Tenet Networks, we don\u2019t just deliver products, we build lasting partnerships. What sets us apart:",
+        "emailsFound": [
+            "hello@tenetnetworks.com"
+        ],
+        "externalLinks": 35,
+        "h1Count": 0,
+        "h2Count": 27,
+        "h3Count": 17,
+        "hasSchema": true,
+        "imageCount": 22,
+        "imagesWithoutAlt": 4,
+        "internalLinks": 83,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "Missing",
+        "ogTitle": "Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks",
+        "pageLoadTimeMs": 4034,
+        "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "suspiciousSocialLinks": 1,
+        "title": "Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks",
+        "totalLinks": 118,
+        "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+        "wordCount": 118
+    }
+}
