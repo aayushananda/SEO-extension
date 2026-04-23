@@ -1,0 +1,18 @@
+# seoExt_v1
+seoExt_v1/node_modules/
+seoExt_v1/coverage/
+seoExt_v1/build/
+seoExt_v1/package/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.history
+*.log
+secrets.*.js
+
+# ml-mod
+ml-mod/fake_seller_detector1/venv/
+ml-mod/fake_seller_detector1/ml_model/model.pkl
+.env
