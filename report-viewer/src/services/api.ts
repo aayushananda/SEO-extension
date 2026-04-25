@@ -6,7 +6,13 @@ export const fetchReport = async (reportId: string): Promise<ReportEndpointRespo
   if (reportId === '096a4846-a896-4489-9888-42aab5de5360') {
     const response = await fetch(`/api/reports/${reportId}.json`);
     if (!response.ok) throw new Error(`HTTP_ERROR_${response.status}`);
-    return response.json();
+    const result = await response.json();
+    return {
+      report_id: reportId,
+      data: result,
+      created_at: result.generated_at,
+      expires_at: null
+    };
   }
 
   // In a real app, this might come from context or a robust auth provider

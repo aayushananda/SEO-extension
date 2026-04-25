@@ -1,0 +1,108 @@
+{
+    "target_url": "https://www.oenum.in/#",
+    "generated_at": "2026-04-25T16:53:13.434687",
+    "insights": {
+        "critical_errors": [
+            {
+                "issue": "Missing H1 Tag",
+                "impact": "High - Search engines cannot identify the main topic of your page.",
+                "recommendation": "Add exactly one <h1> tag containing your primary target keyword."
+            }
+        ],
+        "warnings": [],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Title tag is configured ('The One Stop Shop for Car Covers - Best Car Covers - Oenum \u2013 Oenum Bharat Pvt. Ltd.')",
+            "OG Image is present",
+            "Sufficient word count (568 words)",
+            "Schema.org structured data found",
+            "Healthy Digital Trust Score",
+            "Established Domain Age (825 days)"
+        ]
+    },
+    "core_web_vitals": "Not tested or failed",
+    "traffic_data": {
+        "rank": 1084024,
+        "visits": 32041,
+        "top_keywords": [
+            {
+                "Name": "car cover volvo",
+                "EstimatedValue": 120,
+                "Volume": 140,
+                "Cpc": null
+            },
+            {
+                "Name": "oenum",
+                "EstimatedValue": 50,
+                "Volume": 60,
+                "Cpc": null
+            },
+            {
+                "Name": "oenum car cover",
+                "EstimatedValue": 40,
+                "Volume": 150,
+                "Cpc": null
+            },
+            {
+                "Name": "oenum car cover review",
+                "EstimatedValue": 40,
+                "Volume": 150,
+                "Cpc": null
+            },
+            {
+                "Name": "car cover sun protection",
+                "EstimatedValue": 20,
+                "Volume": 960,
+                "Cpc": 0.73
+            }
+        ],
+        "traffic_sources": {
+            "Social": 0.11432113274243258,
+            "Paid Referrals": 0.014788629584856005,
+            "Mail": 0.0005087031871746895,
+            "Referrals": 0.06484788478863368,
+            "Search": 0.17711348002554206,
+            "Direct": 0.6284201696713609
+        },
+        "competitors": []
+    },
+    "trust_and_safety": {
+        "trust_score": 97.9,
+        "fake_probability": 2.0999999999999943,
+        "verdict": "Trustworthy",
+        "confidence": "High",
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u274c Low traffic (Global Rank #1,084,024) \u2014 possibly new or suspicious"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "https://www.oenum.in/",
+        "description": "Keep your car protected and stylish with Oenum\u2019s premium car accessories and car covers. Whether you need a car accessories store near you or want to shop online, we offer wheel car covers, umbrella car covers, and custom-fit options like car covers for Wagon R \u2014 crafted for durability, style, and superior\u00a0protection.",
+        "emailsFound": [],
+        "externalLinks": 7,
+        "h1Count": 0,
+        "h2Count": 2,
+        "h3Count": 21,
+        "hasSchema": true,
+        "imageCount": 341,
+        "imagesWithoutAlt": 13,
+        "internalLinks": 74,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "",
+        "ogTitle": "The One Stop Shop for Car Covers - Best Car Covers - Oenum",
+        "pageLoadTimeMs": 7560,
+        "robots": "Missing",
+        "suspiciousSocialLinks": 0,
+        "title": "The One Stop Shop for Car Covers - Best Car Covers - Oenum \u2013 Oenum Bharat Pvt. Ltd.",
+        "totalLinks": 81,
+        "viewport": "width=device-width,initial-scale=1",
+        "wordCount": 568
+    }
+}
