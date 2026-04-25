@@ -1,0 +1,111 @@
+{
+    "target_url": "https://travel.state.gov/en/international-travel/travel-advisories.html",
+    "generated_at": "2026-04-25T16:34:39.131093",
+    "insights": {
+        "critical_errors": [],
+        "warnings": [
+            {
+                "issue": "Missing Open Graph (OG) Image",
+                "impact": "Medium - Social media shares of this site will look broken or lack a preview image.",
+                "recommendation": "Add a <meta property='og:image' content='URL'> tag."
+            },
+            {
+                "issue": "Missing Structured Data (Schema.org)",
+                "impact": "Medium - You are missing out on Rich Snippets in Google search results.",
+                "recommendation": "Implement JSON-LD Schema markup relevant to your business type."
+            }
+        ],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Title tag is configured ('Travel Advisories | Travel.State.gov')",
+            "Single H1 tag present",
+            "Sufficient word count (1047 words)",
+            "Healthy Digital Trust Score"
+        ]
+    },
+    "core_web_vitals": "Not tested or failed",
+    "traffic_data": {
+        "rank": 2848,
+        "visits": 18276481,
+        "top_keywords": [
+            {
+                "Name": "visa bulletin",
+                "EstimatedValue": 537350,
+                "Volume": 263420,
+                "Cpc": 1.99
+            },
+            {
+                "Name": "passport renewal",
+                "EstimatedValue": 229290,
+                "Volume": 393740,
+                "Cpc": 1.17
+            },
+            {
+                "Name": "visa bulletin april 2026",
+                "EstimatedValue": 188980,
+                "Volume": 70980,
+                "Cpc": null
+            },
+            {
+                "Name": "visa bulletin march 2026",
+                "EstimatedValue": 134790,
+                "Volume": 46280,
+                "Cpc": null
+            },
+            {
+                "Name": "israel",
+                "EstimatedValue": 83770,
+                "Volume": 3582610,
+                "Cpc": 2.01
+            }
+        ],
+        "traffic_sources": {
+            "Social": 0.012965982790727443,
+            "Paid Referrals": 0.003061655876549367,
+            "Mail": 0.0014007542773972566,
+            "Referrals": 0.11868620840408371,
+            "Search": 0.42953224303041,
+            "Direct": 0.43435315562083215
+        },
+        "competitors": []
+    },
+    "trust_and_safety": {
+        "trust_score": 100.0,
+        "fake_probability": 0.0,
+        "verdict": "Trustworthy",
+        "confidence": "High",
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u2705 Very high traffic (Global Rank #2,848)"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "/en/international-travel/travel-advisories.html",
+        "description": "Travel Advisories keep U.S. citizens informed about destination-specific risks and essential precautions, making your travel abroad safer.",
+        "emailsFound": [],
+        "externalLinks": 21,
+        "h1Count": 1,
+        "h2Count": 16,
+        "h3Count": 2,
+        "hasSchema": false,
+        "imageCount": 14,
+        "imagesWithoutAlt": 1,
+        "internalLinks": 161,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "Missing",
+        "ogTitle": "Missing",
+        "pageLoadTimeMs": "Still loading or unavailable",
+        "robots": "Missing",
+        "suspiciousSocialLinks": 0,
+        "title": "Travel Advisories | Travel.State.gov",
+        "totalLinks": 182,
+        "viewport": "width=device-width, initial-scale=1",
+        "wordCount": 1047
+    }
+}

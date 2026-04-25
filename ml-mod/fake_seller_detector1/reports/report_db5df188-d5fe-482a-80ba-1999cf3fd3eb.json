@@ -1,0 +1,134 @@
+{
+    "target_url": "https://www.tenetnetworks.com/",
+    "generated_at": "2026-04-25T15:22:41.776019",
+    "insights": {
+        "critical_errors": [
+            {
+                "issue": "Missing H1 Tag",
+                "impact": "High - Search engines cannot identify the main topic of your page.",
+                "recommendation": "Add exactly one <h1> tag containing your primary target keyword."
+            }
+        ],
+        "warnings": [
+            {
+                "issue": "Suboptimal Title Tag ('Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks')",
+                "impact": "Medium - Starting with 'Home' wastes valuable keyword space.",
+                "recommendation": "Rewrite the title to prioritize target keywords before the brand name."
+            },
+            {
+                "issue": "Missing Open Graph (OG) Image",
+                "impact": "Medium - Social media shares of this site will look broken or lack a preview image.",
+                "recommendation": "Add a <meta property='og:image' content='URL'> tag."
+            },
+            {
+                "issue": "Thin Content",
+                "impact": "Medium - Word count is only 123.",
+                "recommendation": "Expand homepage text to a minimum of 300 words to establish topical authority."
+            },
+            {
+                "issue": "Suspicious or Default Social Links",
+                "impact": "Medium - Found 1 dead-end or generic social media links.",
+                "recommendation": "Update social icons to point to your actual brand profiles, or remove them."
+            },
+            {
+                "issue": "Sub-optimal Page Speed",
+                "impact": "Medium - Site is slower than recommended benchmarks.",
+                "recommendation": "Review Google PageSpeed insights for specific assets to compress."
+            }
+        ],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Schema.org structured data found",
+            "Healthy Digital Trust Score",
+            "Established Domain Age (2804 days)"
+        ]
+    },
+    "core_web_vitals": {
+        "lcp": "0.9\u00a0s",
+        "lcp_score": 0.97,
+        "cls": "0.005",
+        "cls_score": 1,
+        "speed_index": "4.7\u00a0s",
+        "overall_performance_score": 0.84
+    },
+    "traffic_data": {
+        "rank": 10531283,
+        "visits": 1283,
+        "top_keywords": [
+            {
+                "Name": "anil joseph",
+                "EstimatedValue": 0,
+                "Volume": 310,
+                "Cpc": null
+            },
+            {
+                "Name": "aarzoo gupta tenet",
+                "EstimatedValue": 0,
+                "Volume": 240,
+                "Cpc": null
+            },
+            {
+                "Name": "tenet technetronics careers",
+                "EstimatedValue": 0,
+                "Volume": 160,
+                "Cpc": null
+            },
+            {
+                "Name": "hardware: 16-port 4g/5g modem pool",
+                "EstimatedValue": 0,
+                "Volume": 100,
+                "Cpc": null
+            }
+        ],
+        "traffic_sources": {
+            "Social": 0.060068163206798156,
+            "Paid Referrals": 0.021164417664484278,
+            "Mail": 0.0018373242117421043,
+            "Referrals": 0.13444392742060782,
+            "Search": 0.3729271367310941,
+            "Direct": 0.40069650487472414
+        },
+        "competitors": []
+    },
+    "trust_and_safety": {
+        "trust_score": 97.9,
+        "fake_probability": 2.0999999999999943,
+        "verdict": "Trustworthy",
+        "confidence": "High",
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u274c Low traffic (Global Rank #10,531,283) \u2014 possibly new or suspicious"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "https://www.tenetnetworks.com/",
+        "description": "At Tenet Networks, we don\u2019t just deliver products, we build lasting partnerships. What sets us apart:",
+        "emailsFound": [
+            "hello@tenetnetworks.com"
+        ],
+        "externalLinks": 35,
+        "h1Count": 0,
+        "h2Count": 27,
+        "h3Count": 17,
+        "hasSchema": true,
+        "imageCount": 22,
+        "imagesWithoutAlt": 4,
+        "internalLinks": 83,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "Missing",
+        "ogTitle": "Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks",
+        "pageLoadTimeMs": 1379,
+        "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "suspiciousSocialLinks": 1,
+        "title": "Home 1 - Industrial IoT Gateways, SD-WAN, and SCADA Connectivity Solutions | Tenet Networks",
+        "totalLinks": 118,
+        "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+        "wordCount": 123
+    }
+}

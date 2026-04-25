@@ -40,8 +40,31 @@ document.getElementById('analyze-btn').addEventListener('click', async () => {
       throw new Error(errRes.error || 'Failed to generate report from backend.');
     }
 
+    const data = await response.json();
+
     statusDiv.style.color = '#16a34a';
-    statusDiv.textContent = 'Report successfully generated! Check your terminal and backend folder.';
+    statusDiv.textContent = 'Report successfully generated!';
+
+    if (data.summary) {
+      document.getElementById('result-container').style.display = 'block';
+      const scoreElem = document.getElementById('trust-score');
+      scoreElem.textContent = Math.round(data.summary.trust_score);
+      
+      if (data.summary.trust_score >= 80) scoreElem.style.color = '#16a34a';
+      else if (data.summary.trust_score >= 50) scoreElem.style.color = '#ca8a04';
+      else scoreElem.style.color = '#dc2626';
+      
+      document.getElementById('trust-verdict').textContent = data.summary.verdict;
+    }
+
+    const reportUrl = 'http://localhost:5173/report/' + data.report_id;
+
+    document.getElementById('view-report-btn').onclick = () => {
+      chrome.tabs.create({ url: reportUrl });
+    };
+
+    // Automatically open the report in a new tab
+    chrome.tabs.create({ url: reportUrl });
   } catch (error) {
     statusDiv.style.display = 'none';
     errorDiv.textContent = `Error: ${error.message}`;

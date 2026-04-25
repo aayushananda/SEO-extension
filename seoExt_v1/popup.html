@@ -10,6 +10,14 @@
     <button id="analyze-btn">Generate Detailed Report</button>
     <div id="status-msg" style="display:none; margin-top: 10px; font-size: 14px; text-align: center;"></div>
     <div id="error-msg"></div>
+
+    <div id="result-container" style="display:none; margin-top: 15px; padding: 10px; border: 1px solid #e5e7eb; border-radius: 6px; background-color: #f9fafb; text-align: center;">
+      <h4 style="margin: 0 0 10px 0; color: #111827; font-size: 14px;">Quick Summary</h4>
+      <p style="margin: 5px 0; font-size: 13px;">Trust Score: <strong id="trust-score" style="font-size: 15px;"></strong>/100</p>
+      <p style="margin: 5px 0 12px 0; font-size: 13px;">Verdict: <strong id="trust-verdict"></strong></p>
+      <button id="view-report-btn" style="background-color: #0ea5e9;">View Full Report</button>
+    </div>
+
     <script src="./popup.js"></script>
   </body>
 </html>

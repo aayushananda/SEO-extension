@@ -167,7 +167,12 @@ def generate_seo_report():
             "success": True, 
             "message": "Report generated", 
             "report_id": report_id,
-            "file": filename
+            "file": filename,
+            "summary": {
+                "trust_score": trust_score,
+                "fake_probability": fake_probability,
+                "verdict": report["trust_and_safety"]["verdict"]
+            }
         })
     except Exception as e:
         import traceback
