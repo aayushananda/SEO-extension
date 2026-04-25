@@ -1,0 +1,105 @@
+{
+    "target_url": "https://care24.co.in/cm/general_delhi_desktop-1206825352/?utm_campaign=Search_Brand_Delhi_Desktop_Apr18_Mar22&utm_medium=Online_Marketing&utm_source=Google_Adwords&cmpid=1348974627&adgrid=53840163733&device=c&kywd=care%2024&adCpid=683092381567&adpos=&mtchtyp=p&network=g&placement=&formloc=9301594&intloc=9300870&targetid=kwd-315407828337&devmdl=&Feedid=&gad_source=1&gad_campaignid=1348974627&gbraid=0AAAAADkAuVDO5MuxLUDzEV1bKt0Do0PK4&gclid=CjwKCAjwhqfPBhBWEiwAZo196pbyYXnLoN7ix6vV8RdmJky7Tf4RXqWj5xLQB06wa9kGAreSx3DE9BoC7nEQAvD_BwE",
+    "generated_at": "2026-04-23T21:50:02.216788",
+    "insights": {
+        "critical_errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Title tag is configured ('Reliable and Certified Home Nursing Attendant Services in Delhi')",
+            "OG Image is present",
+            "Single H1 tag present",
+            "Sufficient word count (495 words)",
+            "Schema.org structured data found",
+            "Healthy Digital Trust Score",
+            "Established Domain Age (3982 days)"
+        ]
+    },
+    "core_web_vitals": "Not tested or failed",
+    "traffic_data": {
+        "rank": 1094885,
+        "visits": 25749,
+        "top_keywords": [
+            {
+                "Name": "care24",
+                "EstimatedValue": 740,
+                "Volume": 510,
+                "Cpc": 0.39
+            },
+            {
+                "Name": "home nurse",
+                "EstimatedValue": 110,
+                "Volume": 1250,
+                "Cpc": 3.01
+            },
+            {
+                "Name": "nanny agency in gurgaon",
+                "EstimatedValue": 110,
+                "Volume": 140,
+                "Cpc": null
+            },
+            {
+                "Name": "care 24",
+                "EstimatedValue": 110,
+                "Volume": 130,
+                "Cpc": 0.5
+            },
+            {
+                "Name": "kinva omega rich food",
+                "EstimatedValue": 110,
+                "Volume": 130,
+                "Cpc": null
+            }
+        ],
+        "traffic_sources": {
+            "Social": 0.04495238355266388,
+            "Paid Referrals": 0.014220746023836965,
+            "Mail": 0.0008346432751258726,
+            "Referrals": 0.06461030570452253,
+            "Search": 0.45298039015322905,
+            "Direct": 0.42158059473831405
+        },
+        "competitors": []
+    },
+    "trust_and_safety": {
+        "trust_score": 97.9,
+        "fake_probability": 2.0999999999999943,
+        "verdict": "Trustworthy",
+        "confidence": "High",
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u274c Low traffic (Global Rank #1,094,885) \u2014 possibly new or suspicious"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "https://care24.co.in/cm/general_delhi_desktop-1206825352/",
+        "description": "At Care24, our trained nursing attendants & caregivers understand the challenges of caring for the elderly. To book, call us on 8069642373",
+        "emailsFound": [
+            "support@care24.co.in"
+        ],
+        "externalLinks": 6,
+        "h1Count": 1,
+        "h2Count": 19,
+        "h3Count": 0,
+        "hasSchema": true,
+        "imageCount": 8,
+        "imagesWithoutAlt": 6,
+        "internalLinks": 56,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "https://care24.co.in/wp-content/uploads/2025/05/Logo-10-yrs.png",
+        "ogTitle": "Care24 Delhi, Nursing Services, Attendant, Physio, Elder Care, General",
+        "pageLoadTimeMs": "Still loading or unavailable",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "suspiciousSocialLinks": 0,
+        "title": "Reliable and Certified Home Nursing Attendant Services in Delhi",
+        "totalLinks": 62,
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+        "wordCount": 495
+    }
+}

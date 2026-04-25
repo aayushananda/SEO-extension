@@ -1,0 +1,87 @@
+{
+    "target_url": "https://www.elderblisscare.com/",
+    "generated_at": "2026-04-23T21:42:10.927690",
+    "insights": {
+        "critical_errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Title tag is configured ('Elder Care Service at Home | Elder Bliss Care')",
+            "OG Image is present",
+            "Single H1 tag present",
+            "Sufficient word count (1593 words)",
+            "Schema.org structured data found",
+            "Healthy Digital Trust Score",
+            "Established Domain Age (520 days)"
+        ]
+    },
+    "core_web_vitals": "Not tested or failed",
+    "traffic_data": {
+        "rank": null,
+        "visits": 720,
+        "top_keywords": [
+            {
+                "Name": "\"golden hour\" heart-attack stroke",
+                "EstimatedValue": 0,
+                "Volume": 210,
+                "Cpc": null
+            },
+            {
+                "Name": "private ambulance service in delhi",
+                "EstimatedValue": 0,
+                "Volume": 30,
+                "Cpc": 0.41
+            }
+        ],
+        "traffic_sources": {
+            "Social": 0.0370816131528914,
+            "Paid Referrals": 0.020640581980537462,
+            "Mail": 0.0017278383647703443,
+            "Referrals": 0.1396561652081244,
+            "Search": 0.40759526293966,
+            "Direct": 0.38592281363976505
+        },
+        "competitors": []
+    },
+    "trust_and_safety": {
+        "trust_score": 75.26,
+        "fake_probability": 24.739999999999995,
+        "verdict": "Moderate Risk",
+        "confidence": "High",
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u274c Domain resembles a known brand (possible typosquatting)",
+            "\u274c Very low traffic (720 monthly visits) \u2014 possibly suspicious"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "https://www.elderblisscare.com/",
+        "description": "Professional home healthcare and elder care services in Delhi, Gurgaon, and Noida. Reliable and compassionate support at your home.",
+        "emailsFound": [
+            "info@elderblisscare.com"
+        ],
+        "externalLinks": 7,
+        "h1Count": 1,
+        "h2Count": 14,
+        "h3Count": 5,
+        "hasSchema": true,
+        "imageCount": 35,
+        "imagesWithoutAlt": 6,
+        "internalLinks": 60,
+        "keywords": "Missing",
+        "nofollowLinks": 0,
+        "ogImage": "https://www.elderblisscare.com/wp-content/uploads/2025/02/about.png",
+        "ogTitle": "Elder Care Service at Home | Elder Bliss Care",
+        "pageLoadTimeMs": 6198,
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "suspiciousSocialLinks": 0,
+        "title": "Elder Care Service at Home | Elder Bliss Care",
+        "totalLinks": 67,
+        "viewport": "width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover",
+        "wordCount": 1593
+    }
+}

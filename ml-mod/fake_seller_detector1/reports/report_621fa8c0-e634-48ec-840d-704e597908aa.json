@@ -1,0 +1,103 @@
+{
+    "target_url": "https://www.myntra.com/",
+    "generated_at": "2026-04-24T12:54:12.161915",
+    "insights": {
+        "critical_errors": [],
+        "warnings": [],
+        "passed_checks": [
+            "Page is indexable (No noindex tag)",
+            "Mobile Viewport Configured",
+            "Title tag is configured ('Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra')",
+            "OG Image is present",
+            "Single H1 tag present",
+            "Sufficient word count (2260 words)",
+            "Schema.org structured data found",
+            "Healthy Digital Trust Score",
+            "Established Domain Age (7071 days)"
+        ]
+    },
+    "core_web_vitals": "Not tested or failed",
+    "traffic_data": {
+        "rank": 269,
+        "visits": 112037398,
+        "top_keywords": [
+            {
+                "Name": "myntra",
+                "EstimatedValue": 4802730,
+                "Volume": 1472790,
+                "Cpc": 0.12
+            },
+            {
+                "Name": "myntra login",
+                "EstimatedValue": 74140,
+                "Volume": 67930,
+                "Cpc": 0.06
+            },
+            {
+                "Name": "mynta",
+                "EstimatedValue": 66600,
+                "Volume": 18400,
+                "Cpc": 0.04
+            },
+            {
+                "Name": "souled store",
+                "EstimatedValue": 63600,
+                "Volume": 194160,
+                "Cpc": 0.06
+            },
+            {
+                "Name": "myntra india",
+                "EstimatedValue": 51860,
+                "Volume": 18460,
+                "Cpc": 0.18
+            }
+        ],
+        "traffic_sources": {
+            "Social": 0.025314551712686505,
+            "Paid Referrals": 0.010056231964817003,
+            "Mail": 0.0003627302855511627,
+            "Referrals": 0.020927465700055194,
+            "Search": 0.3600066223976811,
+            "Direct": 0.5833323979390918
+        },
+        "competitors": []
+    },
+    "trust_and_safety": {
+        "trust_score": 100.0,
+        "fake_probability": 0.0,
+        "verdict": "Trustworthy",
+        "confidence": "High",
+        "risk_factors": [
+            "\u2705 Uses HTTPS",
+            "\u2705 Domain looks normal",
+            "Domain age hidden (privacy protected \u2014 common for legit sites)",
+            "\u2705 Most public reviews seem genuine",
+            "\u2705 Domain doesn\u2019t appear to imitate known brands",
+            "\u2705 Very high traffic (Global Rank #269)"
+        ]
+    },
+    "raw_on_page_seo": {
+        "canonical": "https://www.myntra.com/",
+        "description": "Online Shopping Site for Fashion & Lifestyle in India. India's Fashion Expert brings you a variety of footwear, Clothing, Accessories and lifestyle products for women & men. Best Online Fashion Store *COD *Easy returns and exchanges.",
+        "emailsFound": [],
+        "externalLinks": 14,
+        "h1Count": 1,
+        "h2Count": 0,
+        "h3Count": 7,
+        "hasSchema": true,
+        "imageCount": 10,
+        "imagesWithoutAlt": 10,
+        "internalLinks": 671,
+        "keywords": "online shopping, online shopping sites, online shopping india, india shopping, Online shopping site",
+        "nofollowLinks": 0,
+        "ogImage": "https://constant.myntassets.com/www/data/portal/mlogo.png",
+        "ogTitle": "Online Shopping India - Shop Online for Branded Shoes, Clothing & Accessories in India | Myntra.com",
+        "pageLoadTimeMs": 3222,
+        "robots": "Missing",
+        "suspiciousSocialLinks": 0,
+        "title": "Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra",
+        "totalLinks": 685,
+        "viewport": "width=device-width, initial-scale=1.0, user-scalable=no",
+        "wordCount": 2260
+    }
+}

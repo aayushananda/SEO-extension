@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 import whois
 import requests
 from dotenv import load_dotenv
+import uuid
 
 env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), '.env')
 load_dotenv(env_path)
@@ -17,7 +18,20 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from features.features import calculate_score
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={
+    r"/api/reports/*": {
+        "origins": [
+            "http://localhost:5173",
+            "https://your-deployed-viewer.com"
+        ]
+    },
+    r"/generate_seo_report": {
+        "origins": "*"
+    },
+    r"/analyze": {
+        "origins": "*"
+    }
+})
 
 @app.route('/analyze', methods=['POST'])
 def analyze():
@@ -111,6 +125,9 @@ def generate_seo_report():
         from api.seo_insights import generate_insights
         insights = generate_insights(seo_data, score, domain_age_days, pagespeed_data)
         
+        trust_score = float(score)
+        fake_probability = max(0.0, 100.0 - trust_score)
+        
         # Combine ML output and SEO Data
         report = {
             "target_url": url,
@@ -119,7 +136,10 @@ def generate_seo_report():
             "core_web_vitals": pagespeed_data if pagespeed_data else "Not tested or failed",
             "traffic_data": traffic_data,
             "trust_and_safety": {
-                "fake_website_score": score,
+                "trust_score": trust_score,
+                "fake_probability": fake_probability,
+                "verdict": "Trustworthy" if trust_score > 80 else "Suspicious" if trust_score < 50 else "Moderate Risk",
+                "confidence": "High",
                 "risk_factors": reasons
             },
             "raw_on_page_seo": seo_data
@@ -133,8 +153,8 @@ def generate_seo_report():
         print("="*50 + "\n")
         
         # Save to file
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"seo_report_{domain}_{timestamp}.json"
+        report_id = str(uuid.uuid4())
+        filename = f"report_{report_id}.json"
         
         reports_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reports")
         os.makedirs(reports_dir, exist_ok=True)
@@ -143,11 +163,49 @@ def generate_seo_report():
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=4)
             
-        return jsonify({"success": True, "message": "Report generated", "file": filename})
+        return jsonify({
+            "success": True, 
+            "message": "Report generated", 
+            "report_id": report_id,
+            "file": filename
+        })
     except Exception as e:
         import traceback
         traceback.print_exc()
         return jsonify({"error": str(e)}), 500
+
+@app.route('/api/reports/<report_id>', methods=['GET'])
+def get_report(report_id):
+    # Minimal auth check
+    auth_header = request.headers.get('Authorization')
+    if not auth_header or not auth_header.startswith('Bearer '):
+        return jsonify({"error": "UNAUTHORIZED"}), 401
+    
+    # Just checking token presence for now, any valid token format works in MVP
+    token = auth_header.split(' ')[1]
+    if not token:
+        return jsonify({"error": "UNAUTHORIZED"}), 401
+
+    filename = f"report_{report_id}.json"
+    reports_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "reports")
+    filepath = os.path.join(reports_dir, filename)
+    
+    if not os.path.exists(filepath):
+        return jsonify({"error": "REPORT_NOT_FOUND"}), 404
+        
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            
+        # Return in the defined contract format
+        return jsonify({
+            "report_id": report_id,
+            "data": data,
+            "created_at": data.get("generated_at"),
+            "expires_at": None # To be implemented
+        })
+    except Exception as e:
+        return jsonify({"error": "Failed to read report"}), 500
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

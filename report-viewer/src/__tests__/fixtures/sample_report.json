@@ -80,19 +80,22 @@
         "competitors": []
     },
     "trust_and_safety": {
-        "fake_website_score": 97.9,
+        "trust_score": 97.9,
+        "fake_probability": 2.1,
+        "verdict": "Trustworthy",
+        "confidence": "High",
         "risk_factors": [
-            "\u2705 Uses HTTPS",
-            "\u2705 Domain looks normal",
-            "Domain age hidden (privacy protected \u2014 common for legit sites)",
-            "\u2705 Most public reviews seem genuine",
-            "\u2705 Domain doesn\u2019t appear to imitate known brands",
-            "\u274c Low traffic (Global Rank #10,531,283) \u2014 possibly new or suspicious"
+            "✅ Uses HTTPS",
+            "✅ Domain looks normal",
+            "Domain age hidden (privacy protected — common for legit sites)",
+            "✅ Most public reviews seem genuine",
+            "✅ Domain doesn’t appear to imitate known brands",
+            "❌ Low traffic (Global Rank #10,531,283) — possibly new or suspicious"
         ]
     },
     "raw_on_page_seo": {
         "canonical": "https://www.tenetnetworks.com/",
-        "description": "At Tenet Networks, we don\u2019t just deliver products, we build lasting partnerships. What sets us apart:",
+        "description": "At Tenet Networks, we don’t just deliver products, we build lasting partnerships. What sets us apart:",
         "emailsFound": [
             "hello@tenetnetworks.com"
         ],
